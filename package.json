@@ -1,17 +1,28 @@
 {
-	"name": "fcc-learn-npm-package-json",
-	"dependencies": {
-		"express": "^4.14.0"
-	},
-	"main": "server.js",
-	"scripts": {
-		"start": "node server.js"
-	},
-	"engines": {
-		"node": "4.4.5"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://idontknow/todo.git"
-	}
+  "name": "image-search",
+  "dependencies": {
+    "express": "^4.14.0",
+    "mongodb": "^3.0.1",
+    "request": "^2.83.0"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "v8.9.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soltys7dc/image-search.git"
+  },
+  "description": "",
+  "bugs": {
+    "url": "https://github.com/soltys7dc/image-search/issues"
+  },
+  "homepage": "https://github.com/soltys7dc/image-search#readme",
+  "version": "1.0.0",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
 }
